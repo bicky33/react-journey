@@ -1,11 +1,11 @@
 
 type ButtonProps = {
     count : number,
-    handleClick(): void,
+    onClick(): void,
 }
 
-function Button({ count, handleClick }: ButtonProps) {
-    return  ( <button onClick={handleClick}>
+function Button({ count, onClick }: ButtonProps) {
+    return  ( <button onClick={onClick}>
     count is {count}
   </button> );
 }
